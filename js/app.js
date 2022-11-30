@@ -36,7 +36,7 @@ if (questionAnswer4 === 'yes' || questionAnswer4 === 'y') {
   alert('You are incorrect.');
 } else if (questionAnswer4 === 'no' || questionAnswer4 === 'n') {
   // console.log('You are correct.');
-  alert('You are .');
+  alert('You are correct.');
 }
 
 const questionAnswer5 = prompt('Is this the final question?').toLowerCase();
