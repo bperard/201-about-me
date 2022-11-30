@@ -1,0 +1,31 @@
+body {
+  background-color: blanchedalmond;
+}
+
+header {
+  background-color: pink;
+  margin: 1.5em;
+  padding: .2em;
+}
+
+main {
+  background-color: lightpink;
+  margin: 3em;
+  padding: .3em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  color: grey;
+}
+
+header p {
+  text-align: center;
+}
+
+main p {
+  text-align: end;
+}
