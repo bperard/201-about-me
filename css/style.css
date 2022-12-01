@@ -18,6 +18,11 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-size: 1.5em;
+  margin: .4em;
+}
+
 p {
   color: grey;
 }
@@ -28,4 +33,18 @@ header p {
 
 main p {
   text-align: end;
+}
+
+li {
+  list-style: inside;
+  margin: .25em;
+  padding-left: 1em;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ol li {
+  list-style-type: upper-roman;
 }
