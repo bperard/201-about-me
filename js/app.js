@@ -5,7 +5,7 @@ let score = 0;
 const user = prompt('Hello, what is your name?');
 alert(`Welcome ${user}, here are five yes(y) or no(n) questions for you!`);
 
-function questionOne() {
+function question1() {
   const questionAnswer1 = prompt('Do you like cats?').toLowerCase();
   if (questionAnswer1 === 'yes' || questionAnswer1 === 'y') {
     // console.log('You are correct.');
@@ -17,7 +17,7 @@ function questionOne() {
   }
 }
 
-function questionTwo() {
+function question2() {
   const questionAnswer2 = prompt('Is the rhythm going to get you?').toLowerCase();
   if (questionAnswer2 === 'yes' || questionAnswer2 === 'y') {
     // console.log('You are correct.');
@@ -30,7 +30,7 @@ function questionTwo() {
 }
 
 
-function questionThree() {
+function question3() {
   const questionAnswer3 = prompt('Should you avoid spicy food?').toLowerCase();
   if (questionAnswer3 === 'yes' || questionAnswer3 === 'y') {
     // console.log('You are incorrect.');
@@ -42,7 +42,7 @@ function questionThree() {
   }
 }
 
-function questionFour() {
+function question4() {
   const questionAnswer4 = prompt('Is this the final question?').toLowerCase();
   if (questionAnswer4 === 'yes' || questionAnswer4 === 'y') {
     // console.log('You are incorrect.');
@@ -54,7 +54,7 @@ function questionFour() {
   }
 }
 
-function questionFive() {
+function question5() {
   const questionAnswer5 = prompt('Is this the final question?').toLowerCase();
   if (questionAnswer5 === 'yes' || questionAnswer5 === 'y') {
     // console.log('You are correct.');
@@ -70,7 +70,7 @@ function questionFive() {
 let questionAnswer6 = null;
 let remainingGuesses = 4;
 
-function questionSix() {
+function question6() {
   do {
     questionAnswer6 = prompt(`How many species have cats contributed to the extinction of? (${remainingGuesses} guesses remaining)`);
     const parsedQuestionAnswer6 = parseInt(questionAnswer6);
@@ -93,7 +93,7 @@ function questionSix() {
 }
 
 
-function questionSeven() {
+function question7() {
   let answerArray = ['Garrett', 'Vicki', 'Leonard', 'Annie', 'Jeff', 'Starburns', 'Magnitude', 'Pierce'];
   let questionAnswer7IsCorrect = false;
   remainingGuesses = 6;
@@ -125,12 +125,12 @@ function questionSeven() {
 
   alert(`The debaters were: ${answerArray.join(', ')}.`);
 }
-questionOne();
-questionTwo();
-questionThree();
-questionFour();
-questionFive();
-questionSix();
-questionSeven();
+question1();
+question2();
+question3();
+question4();
+question5();
+question6();
+question7();
 
 alert(`You got ${score} of 7 answers correct ${user}, feel free to check out the site now.`);
