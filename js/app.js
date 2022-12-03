@@ -8,11 +8,9 @@ alert(`Welcome ${user}, here are five yes(y) or no(n) questions for you!`);
 function question1() {
   const questionAnswer1 = prompt('Do you like cats?').toLowerCase();
   if (questionAnswer1 === 'yes' || questionAnswer1 === 'y') {
-    // console.log('You are correct.');
     alert('You are correct.');
     score++;
   } else if (questionAnswer1 === 'no' || questionAnswer1 === 'n') {
-    // console.log('You are incorrect.');
     alert('You are incorrect.');
   }
 }
@@ -20,11 +18,9 @@ function question1() {
 function question2() {
   const questionAnswer2 = prompt('Is the rhythm going to get you?').toLowerCase();
   if (questionAnswer2 === 'yes' || questionAnswer2 === 'y') {
-    // console.log('You are correct.');
     alert('You are correct.');
     score++;
   } else if (questionAnswer2 === 'no' || questionAnswer2 === 'n') {
-    // console.log('You are incorrect.');
     alert('You are incorrect.');
   }
 }
@@ -33,10 +29,8 @@ function question2() {
 function question3() {
   const questionAnswer3 = prompt('Should you avoid spicy food?').toLowerCase();
   if (questionAnswer3 === 'yes' || questionAnswer3 === 'y') {
-    // console.log('You are incorrect.');
     alert('You are incorrect.');
   } else if (questionAnswer3 === 'no' || questionAnswer3 === 'n') {
-    // console.log('You are correct.');
     alert('You are correct.');
     score++;
   }
@@ -45,10 +39,8 @@ function question3() {
 function question4() {
   const questionAnswer4 = prompt('Is this the final question?').toLowerCase();
   if (questionAnswer4 === 'yes' || questionAnswer4 === 'y') {
-    // console.log('You are incorrect.');
     alert('You are incorrect.');
   } else if (questionAnswer4 === 'no' || questionAnswer4 === 'n') {
-    // console.log('You are correct.');
     alert('You are correct.');
     score++;
   }
@@ -57,11 +49,9 @@ function question4() {
 function question5() {
   const questionAnswer5 = prompt('Is this the final question?').toLowerCase();
   if (questionAnswer5 === 'yes' || questionAnswer5 === 'y') {
-    // console.log('You are correct.');
     alert('You are correct.');
     score++;
   } else if (questionAnswer5 === 'no' || questionAnswer5 === 'n') {
-    // console.log('You are incorrect.');
     alert('You are incorrect.');
   }
 }
@@ -87,7 +77,6 @@ function question6() {
     }
 
     remainingGuesses--;
-    // console.log(questionAnswer6, remainingGuesses, score);
 
   } while (parseInt(questionAnswer6) !== 33 && remainingGuesses > 0);
 }
@@ -109,7 +98,6 @@ function question7() {
         score++;
         i = answerArray.length;
       }
-      // console.log(i);
     }
 
     if (!questionAnswer7IsCorrect && remainingGuesses > 1) {
@@ -119,7 +107,6 @@ function question7() {
     }
 
     remainingGuesses--;
-    // console.log(questionAnswer7IsCorrect, questionAnswer7, remainingGuesses, score);
 
   } while (!questionAnswer7IsCorrect && remainingGuesses > 0);
 
